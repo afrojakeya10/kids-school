@@ -9,3 +9,115 @@
     font-weight: 400px;
     font-style: normal;
   }
+
+
+
+/* nav style */
+
+.school{
+    display: flex;
+}
+.navbar{
+    display: flex;
+    justify-content:space-evenly;
+}
+ .nav-items{
+  list-style: none;
+  display: flex;
+ }
+
+ .list{
+    display: flex;
+    
+ }
+  
+ .nav-link1,.nav-link2,.nav-link3 ,.nav-link4{
+    margin-right: 30px;
+ }
+
+ .nav-link1{
+    color: orange;
+ }
+ .nav-link2{
+    color: aqua;
+
+ }
+  .nav-link3{
+    color: blue;
+  }
+  .nav-link4{
+    color: olive;
+  }
+
+.menu-btn {
+     
+    width: 20px;
+    height: 20px;
+    display: none;
+  }
+  
+  .btn-line {
+    width: 100%;
+    height: 2px;
+    background : gray;
+    margin: 3px auto;
+    
+  }
+
+  .nav-btn{
+    width: 150px;
+    height: 50px;
+    border: none;
+    border-radius: 12px;
+    color: white;
+    background-color: #FEA301;
+  }
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  /*responsive */
+  @media screen and (max-width: 576px){
+    .nav-lists, .nav-btn{
+        display: none;
+    }
+    .menu-btn{
+        display: block;
+        
+    }
+    .school, .menu-btn{
+    
+        justify-content: space-between;
+        align-items: center;
+        margin: 0 auto;
+        padding: 0 ;
+        
+    }
+    .navbar{
+      border-bottom: 1px solid orange;
+      align-items: center;
+      
+  }
+}
