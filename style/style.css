@@ -75,25 +75,130 @@
       
 
 
+/* banner section*/
+
+.banner{
+  display: flex;
+  justify-content: space-between;
+}
+
+.banner-title{
+  font-weight: bold;
+  font-size: 3rem;
+}
+.span1{
+color: #FEA301;
+}
+.span3{
+ color: #01ACFD;
+}
+ .banner1{
+  text-align: center;
+  
+  margin-left: 200px;
+  margin-top: 100px;
+  
+  
+
+ }
+ .banner2{
+  margin-right: 200px;
+ }
+
+ .banner-description{
+  margin-top: none;
+ }
+
+ .banner-btn{
+  width: 160px;
+  height: 50px;
+  padding: 10px;
+  border-radius: 12px;
+  background-color: black;
+  color: white;
+ }
 
 
+ /* standard*/
+
+ .card{
+  display: flex;
+  padding-top: 10px;
+  justify-content: center;
+  align-items: center;
+ }
+
+ .card-section{
+  margin-left: 140px;
+  margin-right: 140px;
+ }
+
+ .card1,.card2, .card3{
+  width: 320px;
+  height: 400px;
+  text-align: center;
+  gap: 50px;
+  margin: 0 auto;
+  align-items: center;
+ }
+.standard-title{
+  text-align: center;
+  margin-bottom: 60px;
+  font-weight: bold;
+  font-size: 3rem;
+}
+
+.card1{
+  background: linear-gradient(90deg, #DEF5FF,white);
+  border-radius: 12px;
+}
+
+.card2{
+  background: linear-gradient(90deg,#FFF4DC,white);
+  border-radius: 12px;
+}
+
+.card3{
+  background: linear-gradient(90deg,#F2E8FF,white);
+  border-radius: 12px;
+}
+.kinder,.elementary,.middle{
+  padding-top: 50px;
+}
+ .read1{
+  color: #64C8FF;
+
+ }
+.read2{
+  color:#F0AA00 ;
+}
+
+.read3{
+  color:#8700FF
+}
+  .arrow-btn1, .arrow-btn2{
+
+    background: #F0AA00;
+    height: 40px;
+    width: 40px;
+    gap: 5px;
+    text-align: center;
+    padding-top: 10px;
+    border-radius: 30px;
+    color: white;
+    margin-top: 80px;
+    font-weight: bold;
+    
+    
+    
+  }
+.jhamela{
+  display: flex;
+  justify-content: center;
+  gap: 5px;
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+}
 
 
 
@@ -119,5 +224,21 @@
       border-bottom: 1px solid orange;
       align-items: center;
       
+  }
+
+  .banner{
+    flex-direction: column;
+    justify-items: center;
+  }
+  .banner1{
+    margin: 0 auto;
+    width:400px;
+    text-align: center;
+
+  }
+
+  .banner2{
+    width: 100%;
+    order: -1;
   }
 }
