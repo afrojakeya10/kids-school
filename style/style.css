@@ -327,6 +327,11 @@ color: #FEA301;
             top: -30px;
             border: none;
           }
+
+          .stories-container{
+            text-align: center;
+            justify-items: center;
+          }
  
 
           /* footer*/
@@ -357,41 +362,103 @@ color: #FEA301;
 
 
   /*responsive */
-  @media screen and (max-width: 576px){
-    .nav-lists, .nav-btn{
-        display: none;
+  
+  
+
+  /*media quary section*/
+  
+  @media screen and (max-width: 480px) {
+    /* Navbar */
+    .nav-link1, .nav-link2, .nav-link3, .nav-link4 {
+      display: none;
     }
+  
+    .nav-btn {
+      display: none;
+    }
+
     .menu-btn{
-        display: block;
-        
+      display: block;
     }
-    .school, .menu-btn{
-    
-        justify-content: space-between;
-        align-items: center;
-        margin: 0 auto;
-        padding: 0 ;
-        
+  
+    .banner-title {
+      font-size: 1.8rem;
     }
+
     .navbar{
-      border-bottom: 1px solid orange;
+      margin: 0 auto;
+      justify-content: center;
       align-items: center;
+    }
+  
+    /* Card Section */
+
+.card{
+  flex-direction: column;
+  margin: 0 auto;
+}
+    
+    .card1, .card2, .card3 {
+      width: 90%;
+    }
+  
+    .card-section {
+      margin: 0 10px;
       
-  }
+    }
+  
+    .read1, .read2, .read3 {
+      font-size: 1rem;
+    }
+  
+    /* Banner */
 
-  .banner{
-    flex-direction: column;
-    justify-items: center;
+    .banner{
+      flex-direction: column;
+    }
+
+    .banner2{
+      order: -1;
+    }
+    .banner-btn {
+      width: 120px;
+      height: 40px;
+      margin-top: 15px;
+    }
+  
+    /* Our Story Section */
+    .stories-container {
+      grid-template-columns: repeat(2, 1fr); 
+      gap: 5px;
+      width: auto;
+    }
+
+
+  .left-side{
+    
   }
-  .banner1{
+    .story {
+      width: 100%;
+      margin-bottom: 20px;
+    }
+  
+    .story-title {
+      font-size: 1.5rem;
+    }
+  
+    .view-all {
+      width: auto;
+      margin-top: 20px;
+    }
+  
+    /* Footer Section */
+
+
+     
+  .footer-section{
+
+    width: auto;
     margin: 0 auto;
-    width:400px;
-    text-align: center;
-
   }
-
-  .banner2{
-    width: 100%;
-    order: -1;
-  }
+  
 }
